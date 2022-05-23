@@ -1,0 +1,29 @@
+Question : Why String is immutable in java and what is the difference between String and String Builder? And Write some
+of the methods of String class at least 5 with example.
+
+Answer : 
+
+- String is immutable in java so that it cannot be changed in the program any further hence security improves.
+
+- Difference between String and String Builder is that String is used to create immutable strings while String Builder is used to create mutable strings that is strings created using String builder can be modified.
+
+- Some examples of methods of String class are :-
+1) .length() --> It returns the length of the string.
+ Eg. --> String a = "abc"; int x = a.length();
+ The value of x here will be 3 because a.length() is returning the size of the variable a.
+ 
+2) .concat() --> It returns a new string which consist of both original string & new addition, It does not change the value of original string. 
+ E.g. --> String a = "abc"; String b = a.concat("def");
+ Here, the value of a will still remain "abc" but value of b will become "abcdef".
+ 
+3) .equals() --> It checks whether the two strings are equal or not. It returns boolean value. 
+ Eg. ---> String a = "abc"; String b = "abc"; Boolean c = a.equals(b);
+ Here c will store the value true as a.equals(b) returns true.
+ 
+4) .indexOf() --> It returns the first occurring index of a single character of a string.
+ Eg. ---> String a = "abca"; int b = a.indexOf("a");
+ Here b will store value 0 as a.indexOf("a") will return 0 which is the first occurring value of "a" in variable a.
+ 
+5) .lastIndexOf() --> It returns the last occurring index of a single character of a string.
+ Eg. ---> String a = "abca"; int b = a.lastIndexOf("a");
+ Here b will store the value 3 as a.lastIndexOf("a") will return 3 which is the last occurring index of "a" in variable a.

@@ -1,0 +1,50 @@
+package com.ques5;
+
+public class Main {
+	public static void main(String[] args) {
+		Shapes shape = new Shapes();
+		shape.area(new Circle(10));
+		shape.area(new Rectangle(10,5));
+		shape.area(new Square(10));
+	}
+}
+
+class Shapes{
+	public void area(Circle circle) {
+		System.out.println("Area of the circle is " + Math.PI*(Math.pow(circle.radius, 2)));
+	}
+	
+	public void area(Rectangle rectangle) {
+		System.out.println("Area of the rectangle is "+rectangle.breadth*rectangle.length);
+	}
+	
+	public void area(Square square) {
+		System.out.println("Area of the square is " + Math.pow(square.side, 2));
+	}
+}
+
+class Circle{
+	int radius;
+	
+	Circle(int r){
+		this.radius = r;
+	}
+}
+
+class Rectangle{
+	int length;
+	int breadth;
+	
+	Rectangle(int l, int b){
+		this.length = l;
+		this.breadth = b;
+	}
+}
+
+class Square{
+	int side;
+	
+	Square(int s){
+		this.side = s;
+	}
+}
