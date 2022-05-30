@@ -1,0 +1,56 @@
+Question : Explain the difference between IS-A and Has-A relationship with the help of an
+example and explain about access modifiers and their accessibility?
+
+Answer : 
+         Difference between IS-A & Has-A relationship :-
+          
+         Is-A relationship --> When two classes have child-parent relationship it is is called 
+         IS-A relationship. For e.g-->
+         class Animal{
+         
+         }
+         
+         class Lion extends Animal{
+             
+         }
+         
+         Here, Animal & Lion has IS-A relationship;
+         
+         
+         Has-A relationship ---> When once class contains a variable which has object reference of
+         another class, it is known as Has-A relationship. For e.g --->
+         
+         class Car {
+             int tyres;
+             Engine engine;
+         }
+         
+         class Engine{
+             
+         }
+         
+         Here, we can see that Car class has an variable with object reference as Engine. Hence, 
+         Car & Engine has Has-A relationship;
+         
+         
+         
+         
+         
+         Access Modifiers :-
+         
+         Access Modifiers define the scope of the class,method,constructor,variable inside local class
+         /package/global from where we can access them.
+         
+         There are four types of access modifiers :-
+         
+         1)Public :- We can access public modifiers from anywhere inside or outside the package.
+         2)Default :- We can only access default modifiers within the same package only.
+         3)Private :- We can only access private modifiers within the same class only.
+         4)Protected :- We can only access the protected modifiers within the same package only through
+         inheritance ,i.e, we have to have another class a child class if we want to access protected
+         modifiers.
+         
+         
+         
+         
+         
