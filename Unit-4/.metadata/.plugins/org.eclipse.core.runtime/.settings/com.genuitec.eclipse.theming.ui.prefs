@@ -1,9 +1,10 @@
-applyBackground=false
+applyBackground=true
 approved.defs.file.last.changed.time=1649720987000
 configurationInstallLocation=/C\:/Users/HP/Downloads/sts-4.14.1.RELEASE/
 eclipse.preferences.version=1
 iconcolormode=primary
-last.download.attempt.time=1653295476706
-lastConfiguration=1654013109781
+includeThemingInOomph=false
+last.download.attempt.time=1654014321909
+lastConfiguration=1654504576528
 newinstall=true
 workbench.theme=Dark Gray
